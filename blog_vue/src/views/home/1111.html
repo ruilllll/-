@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* div{
+      margin: 100px auto;
+      width: 880px;
+      height: 500px;
+      background-color: blue;
+      display:flex; */
+      /* //子元素换行 */
+      /* flex-wrap: wrap; */
+      /* //居中 */
+      /* align-content: center; */
+      /* //平分空间 */
+      /* align-content: space-around; */
+      /* //先贴边 再平分 */
+      /* align-content: space-between; */
+      /* //主轴居中 */
+      /* justify-content: center; */
+      /* //测轴居中 */
+       /* align-items: center; */
+       /* //拉伸，子盒子不给高度 */
+       /* align-items: stretch; */
+      /* //默认子元素不换行 */
+      /* flex-wrap: nowrap; */
+      /* //设置子元素换行 */
+      /* flex-wrap: wrap; */
+      /* //主轴为Y轴 */
+      /* flex-direction: column; */
+      /* //默认 靠上侧排列 */
+      /* justify-content: flex-start; */
+      /* //靠右侧排列 */
+      /* justify-content: flex-end; */
+      /* /* //居中对齐 */
+      /* justify-content: center; */
+      /* //平分剩余空间 */
+      /* justify-content: space-around; */
+      /* //先贴边再平分 */
+      /* justify-content: space-between; */
+      /* //主轴为X轴 */
+      /* //默认 靠左侧排列 */
+      /* justify-content: flex-start; */
+      /* //靠右侧排列 */
+      /* justify-content: flex-end; */
+      /* //居中对齐
+      justify-content: center; */
+      /* //平分剩余空间 */
+      /* justify-content: space-around; */
+      /* //先贴边再平分 */
+      /* justify-content: space-between; */
+    /* } */
+    /* div span{
+      width: 250px;
+      height: 150px;
+      background-color: aquamarine;
+      margin: 10px;
+    } */
+    .box{
+      margin: 0 auto;
+      width: 900px;
+      height: 150px;
+      background-color: aqua;
+      display: flex;
+    }
+    .box div:nth-child(1){
+      width: 150px;
+      height: 150px;
+      background-color: blue;
+    }
+    .box div:nth-child(2){
+      flex: 1;
+      background-color: blueviolet;
+    }
+    .box div:nth-child(3){
+      width: 150px;
+      height: 150px;
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+  <!-- <div>
+    <span>111</span>
+    <span>222</span>
+    <span>333</span>
+    <span>444</span>
+    <span>555</span>
+    <span>666</span>
+  </div> -->
+  <div class="box">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</body>
+</html>
